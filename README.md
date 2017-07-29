@@ -21,3 +21,8 @@ def getComment(_av):
 def makeCloud(_commentList):  
   - _commentList:弹幕列表  
   - 显示词云
+
+## 效果展示
+- 不计词频  
+注：由于没有筛选，出现了词语重复的现象  
+![image](https://github.com/pancerZH/bilibiliSpider/blob/master/image/show1.png)
