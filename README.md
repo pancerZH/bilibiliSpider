@@ -19,11 +19,15 @@ def getComment(_av):
   - _av:视频的av号，暂不支持视频合集  
   - 返回值:包含所有弹幕的一个列表
 
-- **wordCloud.py**  
-def makeCloud(_commentList):  
+- **wordCloud.py**  
+- def makeCloud(_commentList):  
 
   - _commentList:弹幕列表  
-  - 显示词云
+  - 显示词云  
+  
+- def countFreq(_wordList):  
+	- _wordList:分词后的词语列表  
+	- 返回值：统计词频的字典
 
 ## 效果展示  
 注：由于没有筛选，出现了词语重复的现象  
