@@ -38,7 +38,8 @@ def makeCloud(_commentList):
 
 
 def main():
-    commentList = commentSpider.getComment('av12615924')
+    av = input('输入要查询的视频AV号：')
+    commentList = commentSpider.getComment(av)
     makeCloud(commentList)
 
 if __name__ == '__main__':
