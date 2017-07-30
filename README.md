@@ -32,3 +32,6 @@ def getComment(_av):
 ## 效果展示  
 注：由于没有筛选，出现了词语重复的现象  
 ![image](https://github.com/pancerZH/bilibiliSpider/blob/master/image/show1.png)
+
+增加了过滤列表之后的效果(过滤掉了'哈哈哈'之类的词语)
+![image](https://github.com/pancerZH/bilibiliSpider/blob/master/image/show2.png)
