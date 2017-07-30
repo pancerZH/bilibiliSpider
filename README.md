@@ -35,3 +35,7 @@ def getComment(_av):
 
 增加了过滤列表之后的效果(过滤掉了'哈哈哈'之类的词语)
 ![image](https://github.com/pancerZH/bilibiliSpider/blob/master/image/show2.png)
+
+## 已知的问题  
+- 对于合集类视频，目前只能爬取第一个视频的弹幕
+- 对于番剧，由于弹幕储存机制不同，目前完全无法爬取弹幕
