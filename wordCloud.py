@@ -24,9 +24,13 @@ def makeCloud(_commentList):
 
     word_split = ' '.join(word_list)
     print(word_split)
+    stop_words_list = ['哈', '哈哈', '哈哈哈', '哈哈哈哈']
     # ordered_list = countFreq(word_list)
     # comment_cloud = wordcloud.WordCloud(font_path='Deng.ttf', max_words=100).fit_words(ordered_list)
-    comment_cloud = wordcloud.WordCloud(font_path='Deng.ttf', max_words=50, max_font_size=50).generate(word_split)
+    comment_cloud = wordcloud.WordCloud(font_path='Deng.ttf',
+                                        max_words=50,
+                                        max_font_size=50,
+                                        stopwords=stop_words_list).generate(word_split)
 
     plt.imshow(comment_cloud, interpolation='bilinear')
     plt.axis('off')  # 关闭刻度
